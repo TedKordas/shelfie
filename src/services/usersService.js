@@ -18,3 +18,21 @@ export function getShelfA() {
         return res.data
     })
 }
+
+export function getShelfB() {
+    return axios.get('/api/getShelfB').then(res => {
+        return res.data
+    })
+}
+
+export function getShelfC() {
+    return axios.get('/api/getShelfC').then(res => {
+        return res.data
+    })
+}
+
+export function getShelfD() {
+    return axios.get('/api/getShelfD').then(res => {
+        return res.data
+    })
+}
