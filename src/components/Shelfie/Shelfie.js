@@ -26,15 +26,27 @@ export default function Shelfie() {
             </div>
                 
             <div>
-                <ShelfB/>
+                <Link to="/Shelfb">
+                    <div className='shelfBB'>
+                        Shelf B
+                    </div>
+                </Link>
             </div>
 
             <div>
-                <ShelfC/>
+                <Link to="/Shelfc">
+                    <div className='shelfCC'>
+                        Shelf C
+                    </div>
+                </Link>
             </div>
 
             <div>
-                <ShelfD/>
+                <Link to="/Shelfd">
+                    <div className='shelfDD'>
+                        Shelf D
+                    </div>
+                </Link>
             </div>
             
         </div>
