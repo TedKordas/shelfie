@@ -1,24 +1,49 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* main component */
+
+body {
+  margin: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.header {
+  margin: auto;
+  height: 15vh;
+  background-color: #AB2A19;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
+.siteTitle {
+  margin: auto;
+  display: flex;
+  justify-content: center;
   padding: 20px;
-  color: white;
+  font-size: 60px;
+  position: absolute;
+  left: 40vh;
+  color: #FFFFFF;
+  font-family: 'Open Sans';
 }
 
-.App-intro {
-  font-size: large;
+.siteLogo {
+  margin: auto;
+  position: absolute;
+  padding: 20px;
+  left: 28vh;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+/* Shelfie Component */
+
+.shelfAA {
+  background-color: #D34735;
+  width: 80vh;
+  height: 10vh;
+  border-radius: 10px;
+  margin: 5vh 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-family: 'Open Sans';
+  font-size: 30px;
+  
 }
