@@ -13,5 +13,20 @@ module.exports = {
         req.app.get('db').getShelfA().then(bins => {
             res.status(200).send(bins)
         }).catch(err => console.log(err))
+    },
+    getShelfB: (req, res) => {
+        req.app.get('db').getShelfB().then(bins => {
+            res.status(200).send(bins)
+        }).catch(err => console.log(err))
+    },
+    getShelfC: (req, res) => {
+        req.app.get('db').getShelfC().then(bins => {
+            res.status(200).send(bins)
+        }).catch(err => console.log(err))
+    },
+    getShelfD: (req, res) => {
+        req.app.get('db').getShelfD().then(bins => {
+            res.status(200).send(bins)
+        }).catch(err => console.log(err))
     }
 }
