@@ -21,5 +21,7 @@ app.get('/api/getAllBins', ctrl.getAllBins );
 
 app.get('/api/getAllShelves', ctrl.getAllShelves );
 
+app.get('/api/getShelfA', ctrl.getShelfA );
+
 const port = process.env.PORT || 3005
 app.listen(port, () => console.log(`Listening on ${port}`));

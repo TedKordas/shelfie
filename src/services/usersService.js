@@ -12,3 +12,9 @@ export function getAllShelves() {
         return res.data
     })
 }
+
+export function getShelfA() {
+    return axios.get('/api/getShelfA').then(res => {
+        return res.data
+    })
+}
