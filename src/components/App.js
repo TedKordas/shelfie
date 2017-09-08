@@ -8,11 +8,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Link to="/">Shelfie</Link>
+        {/* <Link to="/">Shelfie</Link>
         <Link to="/ShelfA">ShelfA</Link>
         <Link to="/ShelfB">ShelfB</Link>
         <Link to="/ShelfC">ShelfC</Link>
-        <Link to="/ShelfD">ShelfD</Link>
+        <Link to="/ShelfD">ShelfD</Link> */}
         { router }
       </div>
     );

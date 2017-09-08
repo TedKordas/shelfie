@@ -1,8 +1,11 @@
 import Shelves from '../Shelves/Shelves';
 import React from 'react';
 import logo from '../../logo.png';
-import { Link } from 'react-router-dom';
+import { Link, Route, Router, Switch } from 'react-router-dom';
 import ShelfA from '../../components/Shelves/ShelfA';
+import ShelfB from '../../components/Shelves/ShelfB';
+import ShelfC from '../../components/Shelves/ShelfC';
+import ShelfD from '../../components/Shelves/ShelfD';
 
 export default function Shelfie() {
     return (
@@ -15,19 +18,35 @@ export default function Shelfie() {
             </div>
             
             <div>
-                <ShelfA/>
+                <Link to="/Shelfa">
+                    <div className='shelfAA'>
+                        Shelf A
+                    </div>
+                </Link>
+            </div>
+                
+            <div>
+                <Link to="/Shelfb">
+                    <div className='shelfBB'>
+                        Shelf B
+                    </div>
+                </Link>
             </div>
 
             <div>
-
+                <Link to="/Shelfc">
+                    <div className='shelfCC'>
+                        Shelf C
+                    </div>
+                </Link>
             </div>
 
             <div>
-
-            </div>
-
-            <div>
-
+                <Link to="/Shelfd">
+                    <div className='shelfDD'>
+                        Shelf D
+                    </div>
+                </Link>
             </div>
             
         </div>

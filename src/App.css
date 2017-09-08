@@ -47,3 +47,137 @@ body {
   font-size: 30px;
   
 }
+
+.shelfBB {
+  background-color: #D34735;
+  width: 80vh;
+  height: 10vh;
+  border-radius: 10px;
+  margin: 5vh 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-family: 'Open Sans';
+  font-size: 30px;
+}
+
+.shelfCC {
+  background-color: #D34735;
+  width: 80vh;
+  height: 10vh;
+  border-radius: 10px;
+  margin: 5vh 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-family: 'Open Sans';
+  font-size: 30px;
+}
+
+.shelfDD {
+  background-color: #D34735;
+  width: 80vh;
+  height: 10vh;
+  border-radius: 10px;
+  margin: 5vh 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-family: 'Open Sans';
+  font-size: 30px;
+}
+
+/* shelfA */
+
+.shelfAHeaderContainer {
+  margin: left;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+
+.selfASiteLogo {
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  align-content: center;
+}
+
+
+.shelfAHeaderDarkRed {
+  width: 30%;
+  height: 100%;
+  background-color: #AB2A19;
+}
+
+.shelfAHeaderLightRed {
+  width: 70%;
+  height: 100%;
+  background-color: #D34735;
+  font-family: 'Open Sans';
+  color: #FFFFFF;
+  font-size: 65px;
+  padding: 0px 0px 0px 9px;
+}
+
+.bin01 {
+  background-color: #ED6B5A;
+  width: 80vh;
+  height: 10vh;
+  border-radius: 10px;
+  margin: 5vh 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-family: 'Open Sans';
+  font-size: 30px;
+}
+
+.bin02 {
+  background-color: #ED6B5A;
+  width: 80vh;
+  height: 10vh;
+  border-radius: 10px;
+  margin: 5vh 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-family: 'Open Sans';
+  font-size: 30px;
+}
+
+.bin03 {
+  background-color: #ED6B5A;
+  width: 80vh;
+  height: 10vh;
+  border-radius: 10px;
+  margin: 5vh 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-family: 'Open Sans';
+  font-size: 30px;
+}
+
+.bin04 {
+  background-color: #ED6B5A;
+  width: 80vh;
+  height: 10vh;
+  border-radius: 10px;
+  margin: 5vh 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-family: 'Open Sans';
+  font-size: 30px;
+}
