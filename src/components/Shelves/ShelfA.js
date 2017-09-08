@@ -27,8 +27,12 @@ export default class ShelfA extends Component {
         })
         return (
             <div>
-                <h1>Here is shelfA!</h1>
-                <div>{shelfA}</div>
+            
+                <div className='shelfAA'>
+                    Shelf A
+                    {shelfA}
+                </div>
+                
             </div>
         )
     }
