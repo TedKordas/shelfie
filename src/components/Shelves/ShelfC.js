@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { getShelfC } from '../../services/usersService';
+import { Link } from 'react-router-dom';
 
 export default class ShelfC extends Component {
     constructor() {
@@ -27,8 +28,12 @@ export default class ShelfC extends Component {
         })
         return (
             <div>
-                <h1>Here is shelfC!</h1>
-                <div>{shelfC}</div>
+                <Link to="/ShelfC">
+                    <div className='shelfCC'>
+                        Shelf C
+                        {shelfC}
+                    </div>
+                </Link>
             </div>
         )
     }
